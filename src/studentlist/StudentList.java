@@ -1,16 +1,14 @@
 package studentlist;
 
 import java.util.Scanner;
-
 /*
  * @Het Patel
  */
 public class StudentList {
 
-    // hello this is a comment.
-    // ROLL BACK COMMENT
+    //hello this is a comment.
     public static void main(String[] args) {
-
+        
         Student[] students = new Student[5];
 
         students[0] = new Student("001", "Het");
@@ -22,7 +20,7 @@ public class StudentList {
         for (int i = 0; i < students.length; i++) {
             System.out.println(students[i].getsID() + " " + students[i].getsName());
         }
-
+                
     }
 
 }
