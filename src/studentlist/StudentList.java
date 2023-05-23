@@ -17,8 +17,8 @@ public class StudentList {
         students[3] = new Student("004", "Susan");
         students[4] = new Student("005", "Bob");
 
-        for (int i = 0; i < students.length; i++) {
-            System.out.println(students[i].getsID() + " " + students[i].getsName());
+        for (Student student : students) {
+            System.out.println(student.getsID() + " " + student.getsName());
         }
                 
     }
